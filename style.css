@@ -1,0 +1,64 @@
+header{
+    background-image:linear-gradient(to right,blue,pink);
+    height: 150px;
+    width:100%;
+    font-size: 2rem;
+    text-align: center;
+  }
+  main{
+      background-color: black;
+      height: 100px;
+      margin-top: 50px;
+      text-align: center; 
+      /* font-size: 2rem; */
+      padding-top:15px;
+  
+  }
+  main div{
+      position: relative;
+      height:90px;
+      width:100px;
+      background-color: aqua;
+      margin:auto;
+      overflow: hidden;
+  }
+  #input{
+      width:200px;
+      /* height:42px; */
+      font-size:1rem;
+      padding:0.4rem;
+      border: 2px solid black;
+      /* border-radius:10px 10px; */
+  }
+  button{
+      width: 150px;
+      /* height:2rem; */
+      margin-left:5%;
+      border:2px solid silver;
+      color:black;
+      background-color: aqua;
+      font-size: 1rem;
+      padding:0.4rem;
+  }
+  .show_place{
+      display: inline-block;
+  }
+  p{
+      border-top: 2px solid aqua;
+      background-color: white;
+      height:90px;
+      width:100px;
+      text-align: center;
+      font-size: 3rem;
+      line-height: 100px;
+      margin:0;
+  }
+  p.next{
+      position: absolute;
+      top:90px;
+      /* height: 0; */
+  }
+  p.animate{
+      transition: all 0.5s;
+      top:0px;
+  }
